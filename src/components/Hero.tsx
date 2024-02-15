@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
           <div className='hero-content__text'>
             <h4>Os melhores preços e condições</h4>
             <h1>
-              Alugue seu carro na <span>Alugue Fácil</span>.
+              Reserve seu carro na <span>Aluga Fácil</span>.
             </h1>
             <p>
               Oferecemos uma frota diversificada, desde econômicos até SUVs luxuosos. Sua jornada
