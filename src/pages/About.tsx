@@ -1,6 +1,4 @@
-import { Footer, HeroPages, PlanTrip } from '../components';
-
-import { IconPhone } from '@tabler/icons-react';
+import { Footer, HeroPages, PlanTrip, BookBanner } from '../components';
 
 import AboutMain from '../images/about/about-main.jpg';
 import Box1 from '../images/about/icon1.png';
@@ -52,18 +50,8 @@ const About: React.FC = () => {
         </div>
       </section>
       {/* book banner */}
-      <div className='book-banner'>
-        <div className='book-banner__overlay'></div>
-        <div className='container'>
-          <div className='text-content'>
-            <h2>Entre em contato agora mesmo!</h2>
-            <span>
-              <IconPhone width={40} height={40} />
-              <h3>(123) 456-7869</h3>
-            </span>
-          </div>
-        </div>
-      </div>
+      <BookBanner />
+      {/* footer */}
       <Footer />
     </>
   );

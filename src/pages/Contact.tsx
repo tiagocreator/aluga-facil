@@ -51,6 +51,7 @@ const Contact: React.FC = () => {
           </div>
         </div>
       </div>
+      {/* footer */}
       <Footer />
     </section>
   );

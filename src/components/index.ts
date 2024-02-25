@@ -12,3 +12,4 @@ export { default as PlanTrip } from './PlanTrip';
 export { default as PickCar } from './PickCar';
 export { default as Testimonials } from './Testimonials';
 export { default as BookCarModal } from './BookCarModal';
+export { default as BookBanner } from './BookBanner';
