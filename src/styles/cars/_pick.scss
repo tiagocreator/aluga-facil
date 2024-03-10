@@ -71,7 +71,7 @@
 }
 
 .pick-car {
-  width: 50rem;
+  width: auto;
   position: relative;
 
   @media (max-width: 700px) {
@@ -80,6 +80,7 @@
 
   img {
     width: 100%;
+    height: auto;
     margin-top: 6rem;
   }
 }

@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
 
-    h3 {
+    span {
       font-size: $h4-size;
       font-family: $text-font;
       font-weight: 500;
@@ -88,7 +88,7 @@
           width: 5rem;
         }
 
-        span {
+        div {
           display: flex;
           align-items: center;
           gap: 1rem;
@@ -98,7 +98,7 @@
             flex-direction: column;
           }
 
-          h4 {
+          span {
             font-size: 4.6rem;
           }
         }

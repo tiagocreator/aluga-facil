@@ -24,8 +24,10 @@
     max-width: 80rem;
     line-height: 1.5;
 
-    h5 {
+    span {
       font-size: $h4-size;
+      font-family: $text-font;
+      font-weight: 500;
     }
 
     h2 {

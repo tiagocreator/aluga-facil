@@ -72,7 +72,7 @@
 
         select {
           font-size: 1.5rem;
-          color: #ababab;
+          color: $text-black;
           font-family: $text-font;
           border: 1px solid #ccd7e6;
           border-radius: 3px;
@@ -89,7 +89,7 @@
 
         input {
           outline: none;
-          color: #878585;
+          color: $text-black;
           padding-right: 3rem;
           border: 1px solid #ccd7e6;
         }

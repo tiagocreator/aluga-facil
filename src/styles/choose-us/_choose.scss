@@ -49,7 +49,7 @@
       text-align: center;
     }
 
-    h4 {
+    span {
       font-size: $h4-size;
       margin-bottom: 0.7rem;
       font-weight: 600;
@@ -121,8 +121,10 @@
         gap: 1rem;
         justify-content: center;
 
-        h4 {
+        span {
           font-size: $h3-size;
+          font-weight: 600;
+          font-family: $text-font;
         }
 
         p {

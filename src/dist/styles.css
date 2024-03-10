@@ -99,7 +99,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-.about-main__text h3 {
+.about-main__text span {
   font-size: 2.2rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -145,18 +145,18 @@ body {
   height: 5rem;
   width: 5rem;
 }
-.about-main__text__icons__box span {
+.about-main__text__icons__box div {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 @media (max-width: 520px) {
-  .about-main__text__icons__box span {
+  .about-main__text__icons__box div {
     text-align: center;
     flex-direction: column;
   }
 }
-.about-main__text__icons__box span h4 {
+.about-main__text__icons__box div span {
   font-size: 4.6rem;
 }
 
@@ -256,8 +256,8 @@ body {
   }
 }
 .banner-content__text span {
-  color: #0072d2;
-  font-weight: 500;
+  color: #fff;
+  font-weight: 600;
 }
 
 .navbar {
@@ -658,7 +658,7 @@ body {
 }
 .book-content__box .box-form__car-type select {
   font-size: 1.5rem;
-  color: #ababab;
+  color: #010103;
   font-family: "Rubik", sans-serif;
   border: 1px solid #ccd7e6;
   border-radius: 3px;
@@ -673,7 +673,7 @@ body {
 }
 .book-content__box .box-form__car-time input {
   outline: none;
-  color: #878585;
+  color: #010103;
   padding-right: 3rem;
   border: 1px solid #ccd7e6;
 }
@@ -1018,7 +1018,7 @@ body {
 .hero-pages {
   width: 100%;
   height: 41rem;
-  background-image: url("/src/images/hero/hero-pages.jpg");
+  background-image: url("/src/images/hero/hero-pages.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1190,7 +1190,7 @@ body {
 }
 
 .pick-car {
-  width: 50rem;
+  width: auto;
   position: relative;
 }
 @media (max-width: 700px) {
@@ -1200,6 +1200,7 @@ body {
 }
 .pick-car img {
   width: 100%;
+  height: auto;
   margin-top: 6rem;
 }
 
@@ -1359,7 +1360,7 @@ body {
     text-align: center;
   }
 }
-.text-container__left h4 {
+.text-container__left span {
   font-size: 2.2rem;
   margin-bottom: 0.7rem;
   font-weight: 600;
@@ -1424,8 +1425,10 @@ body {
   gap: 1rem;
   justify-content: center;
 }
-.text-container__right__box__text h4 {
+.text-container__right__box__text span {
   font-size: 2.4rem;
+  font-weight: 600;
+  font-family: "Rubik", sans-serif;
 }
 .text-container__right__box__text p {
   font-size: 1.7rem;
@@ -1452,7 +1455,7 @@ body {
   max-width: 70rem;
   margin-bottom: 5rem;
 }
-.testimonials-content__title h4 {
+.testimonials-content__title span {
   font-size: 2.2rem;
   font-family: "Rubik", sans-serif;
   font-weight: 500;
@@ -1510,7 +1513,7 @@ body {
   height: 7rem;
   border-radius: 50%;
 }
-.all-testimonials__box__name__profile h4 {
+.all-testimonials__box__name__profile h1 {
   font-size: 1.8rem;
 }
 .all-testimonials__box__name__profile p {
@@ -1563,8 +1566,10 @@ body {
   max-width: 80rem;
   line-height: 1.5;
 }
-.faq-content__title h5 {
+.faq-content__title span {
   font-size: 2.2rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
 }
 .faq-content__title h2 {
   font-size: 4.2rem;
@@ -1642,7 +1647,7 @@ body {
 }
 
 .download-section {
-  background-image: url("/src/images/download/app.png");
+  background-image: url("/src/images/download/app.webp");
   background-color: #f8f8f8;
   background-position: top center;
   background-repeat: no-repeat;
