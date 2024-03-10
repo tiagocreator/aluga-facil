@@ -16,7 +16,7 @@ const Models: React.FC = () => {
           {CAR_DATA.map((car, index) => (
             <div key={index} className='models-div__box'>
               <div className='models-div__box__img'>
-                <img src={car[0].img} alt='' />
+                <img src={car[0].img} alt='' width='270' height='180' />
                 <div className='models-div__box__descr'>
                   <div className='models-div__box__descr__name-price'>
                     <div className='models-div__box__descr__name-price__name'>

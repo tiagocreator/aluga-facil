@@ -109,10 +109,10 @@ const BookCar: React.FC = () => {
 
             <form className='box-form'>
               <div className='box-form__car-type'>
-                <label>
+                <label htmlFor='select-car'>
                   <IconCar className='input-icon' /> &nbsp; Escolha seu modelo preferido <b>*</b>
                 </label>
-                <select value={carType} onChange={handleCar}>
+                <select id='select-car' value={carType} onChange={handleCar}>
                   <option>Escolha seu carro</option>
                   {CAR_DATA.map((car, index) => (
                     <option key={index} value={car[0].name}>
@@ -123,10 +123,10 @@ const BookCar: React.FC = () => {
               </div>
 
               <div className='box-form__car-type'>
-                <label>
+                <label htmlFor='pick-car'>
                   <IconMapPinFilled className='input-icon' /> &nbsp; Local da coleta <b>*</b>
                 </label>
-                <select value={pickUp} onChange={handlePick}>
+                <select id='pick-car' value={pickUp} onChange={handlePick}>
                   <option>Onde você vai pegar?</option>
                   {citiesArr.map((city, index) => (
                     <option key={index} value={city}>
@@ -137,10 +137,10 @@ const BookCar: React.FC = () => {
               </div>
 
               <div className='box-form__car-type'>
-                <label>
+                <label htmlFor='drop-car'>
                   <IconMapPinFilled className='input-icon' /> &nbsp; Local da entrega <b>*</b>
                 </label>
-                <select value={dropOff} onChange={handleDrop}>
+                <select id='drop-car' value={dropOff} onChange={handleDrop}>
                   <option>Onde vai entregar?</option>
                   {citiesArr.map((city, index) => (
                     <option key={index} value={city}>

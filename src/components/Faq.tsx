@@ -22,7 +22,7 @@ const Faq: React.FC = () => {
       <div className='container'>
         <div className='faq-content'>
           <div className='faq-content__title'>
-            <h5>Dúvidas?</h5>
+            <span>Dúvidas?</span>
             <h2>Dúvidas Mais Frequentes</h2>
             <p>
               Perguntas Frequentes Sobre o Processo de Reserva de Aluguel de Carros em Nosso Site:

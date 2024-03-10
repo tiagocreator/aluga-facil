@@ -1,7 +1,7 @@
 import { IconQuote } from '@tabler/icons-react';
 
-import User1 from '../images/testimonials/user-1.jpg';
-import User2 from '../images/testimonials/user-2.jpg';
+import User1 from '../images/testimonials/user-1.webp';
+import User2 from '../images/testimonials/user-2.webp';
 
 const Testimonials: React.FC = () => {
   return (
@@ -9,7 +9,7 @@ const Testimonials: React.FC = () => {
       <div className='container'>
         <div className='testimonials-content'>
           <div className='testimonials-content__title'>
-            <h4>100% de Satisfação</h4>
+            <span>100% de Satisfação</span>
             <h2>Avaliações de Clientes</h2>
             <p>
               Descubra o impacto positivo que temos gerado em nossos clientes lendo os depoimentos.
@@ -31,7 +31,7 @@ const Testimonials: React.FC = () => {
                 <div className='all-testimonials__box__name__profile'>
                   <img src={User1} alt='' />
                   <span>
-                    <h4>João Pedro</h4>
+                    <h1>João Pedro</h1>
                     <p>Recife</p>
                   </span>
                 </div>
@@ -50,7 +50,7 @@ const Testimonials: React.FC = () => {
                 <div className='all-testimonials__box__name__profile'>
                   <img src={User2} alt='' />
                   <span>
-                    <h4>Maria Joana</h4>
+                    <h1>Maria Joana</h1>
                     <p>São Paulo</p>
                   </span>
                 </div>

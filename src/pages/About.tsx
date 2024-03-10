@@ -1,6 +1,6 @@
 import { Footer, HeroPages, PlanTrip, BookBanner } from '../components';
 
-import AboutMain from '../images/about/about-main.jpg';
+import AboutMain from '../images/about/about-main.webp';
 import Box1 from '../images/about/icon1.png';
 import Box2 from '../images/about/icon2.png';
 import Box3 from '../images/about/icon3.png';
@@ -14,8 +14,8 @@ const About: React.FC = () => {
           <div className='about-main'>
             <img className='about-main__img' src={AboutMain} alt='' />
             <div className='about-main__text'>
-              <h3>Sobre Nossa Empresa</h3>
-              <h2>Alugue Carros Confiáveis</h2>
+              <span>Sobre Nossa Empresa</span>
+              <h2>Carros Confiáveis</h2>
               <p>
                 Oferecemos uma experiência de viagem sem complicações. Com uma variedade de veículos
                 bem-mantidos e tarifas acessíveis, estamos aqui para tornar sua próxima aventura
@@ -24,24 +24,24 @@ const About: React.FC = () => {
               <div className='about-main__text__icons'>
                 <div className='about-main__text__icons__box'>
                   <img src={Box1} alt='' />
-                  <span>
-                    <h4>10</h4>
+                  <div>
+                    <span>10</span>
                     <p>Modelos</p>
-                  </span>
+                  </div>
                 </div>
                 <div className='about-main__text__icons__box'>
                   <img src={Box2} alt='' />
-                  <span>
-                    <h4>12</h4>
+                  <div>
+                    <span>12</span>
                     <p>Locadoras</p>
-                  </span>
+                  </div>
                 </div>
                 <div className='about-main__text__icons__box'>
                   <img src={Box3} alt='' />
-                  <span>
-                    <h4>25</h4>
+                  <div>
+                    <span>25</span>
                     <p>Oficinas</p>
-                  </span>
+                  </div>
                 </div>
               </div>
             </div>
