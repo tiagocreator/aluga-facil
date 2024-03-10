@@ -1,11 +1,11 @@
 import { Footer, HeroPages, BookBanner } from '../components';
 
-import Person1 from '../images/team/1.jpg';
-import Person2 from '../images/team/2.jpg';
-import Person3 from '../images/team/3.jpg';
-import Person4 from '../images/team/4.jpg';
-import Person5 from '../images/team/5.jpg';
-import Person6 from '../images/team/6.jpg';
+import Person1 from '../images/team/1.webp';
+import Person2 from '../images/team/2.webp';
+import Person3 from '../images/team/3.webp';
+import Person4 from '../images/team/4.webp';
+import Person5 from '../images/team/5.webp';
+import Person6 from '../images/team/6.webp';
 
 const Team: React.FC = () => {
   interface TeamMember {
@@ -31,7 +31,7 @@ const Team: React.FC = () => {
           {teamMember.map((member, id) => (
             <div key={id} className='team-container__box'>
               <div className='team-container__box__img-div'>
-                <img src={member.img} alt='' />
+                <img src={member.img} alt='' width='350' height='431' />
               </div>
               <div className='team-container__box__descr'>
                 <h3>{member.name}</h3>
