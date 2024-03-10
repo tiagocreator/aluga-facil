@@ -1,13 +1,13 @@
-import ToyotaCamry from '../images/cars/toyota-camry-hybrid.png';
-import ToyotaHilux from '../images/cars/toyota-hilux.png';
-import BmwX4 from '../images/cars/bmw-x4.png';
-import BmwX5 from '../images/cars/bmw-x5.png';
-import ChevroletOnix from '../images/cars/chevrolet-onix.png';
-import CheroletSpin from '../images/cars/chevrolet-spin.png';
-import FiatMobi from '../images/cars/fiat-mobi.png';
-import FiatUno from '../images/cars/fiat-uno.png';
-import VolkswagenGolf from '../images/cars/volkswagen-golf.png';
-import VolkswagenBeetle from '../images/cars/volkswagen-new-beetle.png';
+import ToyotaCamry from '../images/cars/toyota-camry-hybrid.webp';
+import ToyotaHilux from '../images/cars/toyota-hilux.webp';
+import BmwX4 from '../images/cars/bmw-x4.webp';
+import BmwX5 from '../images/cars/bmw-x5.webp';
+import ChevroletOnix from '../images/cars/chevrolet-onix.webp';
+import CheroletSpin from '../images/cars/chevrolet-spin.webp';
+import FiatMobi from '../images/cars/fiat-mobi.webp';
+import FiatUno from '../images/cars/fiat-uno.webp';
+import VolkswagenGolf from '../images/cars/volkswagen-golf.webp';
+import VolkswagenBeetle from '../images/cars/volkswagen-new-beetle.webp';
 
 interface Car {
   name: string;

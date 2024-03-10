@@ -31,6 +31,8 @@ const CarBox: React.FC<CarBoxProps> = ({ data, carID }) => {
               style={{ display: carLoad ? 'none' : 'block' }}
               src={car.img}
               alt='car_img'
+              width='600'
+              height='400'
               onLoad={() => setCarLoad(false)}
             />
           </div>

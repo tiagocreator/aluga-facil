@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { IconChevronRight, IconCircleCheck } from '@tabler/icons-react';
 
 import BgShape from '../images/hero/hero-bg.png';
-import HeroCar from '../images/hero/hero-image.png';
+import HeroCar from '../images/hero/hero-image.webp';
 
 const Hero: React.FC = () => {
   const [goUp, setGoUp] = useState<boolean>(false);

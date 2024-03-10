@@ -3,16 +3,16 @@ import React, { ChangeEvent, MouseEvent, SyntheticEvent, useState } from 'react'
 import { IconInfoCircleFilled, IconX } from '@tabler/icons-react';
 import { IconMapPinFilled } from '@tabler/icons-react';
 
-import ToyotaCamry from '../images/cars/toyota-camry-hybrid.png';
-import ToyotaHilux from '../images/cars/toyota-hilux.png';
-import BmwX4 from '../images/cars/bmw-x4.png';
-import BmwX5 from '../images/cars/bmw-x5.png';
-import ChevroletOnix from '../images/cars/chevrolet-onix.png';
-import ChevroletSpin from '../images/cars/chevrolet-spin.png';
-import FiatMobi from '../images/cars/fiat-mobi.png';
-import FiatUno from '../images/cars/fiat-uno.png';
-import VolkswagenGolf from '../images/cars/volkswagen-golf.png';
-import VolkswagenBeetle from '../images/cars/volkswagen-new-beetle.png';
+import ToyotaCamry from '../images/cars/toyota-camry-hybrid.webp';
+import ToyotaHilux from '../images/cars/toyota-hilux.webp';
+import BmwX4 from '../images/cars/bmw-x4.webp';
+import BmwX5 from '../images/cars/bmw-x5.webp';
+import ChevroletOnix from '../images/cars/chevrolet-onix.webp';
+import ChevroletSpin from '../images/cars/chevrolet-spin.webp';
+import FiatMobi from '../images/cars/fiat-mobi.webp';
+import FiatUno from '../images/cars/fiat-uno.webp';
+import VolkswagenGolf from '../images/cars/volkswagen-golf.webp';
+import VolkswagenBeetle from '../images/cars/volkswagen-new-beetle.webp';
 
 interface BookCarProps {
   modal: boolean;
@@ -216,7 +216,7 @@ const BookCarModal: React.FC<BookCarProps> = ({
           <h5>
             <span>Carro -</span> {carType}
           </h5>
-          {imgUrl && <img src={imgUrl} alt='car_img' />}
+          {imgUrl && <img src={imgUrl} alt='car_img' width='600' height='400' />}
         </div>
       </div>
       {/* personal info */}
