@@ -136,6 +136,11 @@
     width: 60%;
     margin-top: 11rem;
 
+    min-width: 570px;
+    min-height: 320px;
+    max-width: 768px;
+    max-height: 432px;
+
     @media (max-width: 1000px) {
       display: none;
     }

@@ -14,7 +14,7 @@ const PlanTrip: React.FC = () => {
 
           <div className='plan-container__boxes'>
             <div className='plan-container__boxes__box'>
-              <img src={SelectCar} alt='' />
+              <img src={SelectCar} alt='' width='117' />
               <h3>Escolha um carro</h3>
               <p>
                 Oferecemos uma grande variedade de veículos para todas as suas necessidades de
@@ -23,13 +23,13 @@ const PlanTrip: React.FC = () => {
             </div>
 
             <div className='plan-container__boxes__box'>
-              <img src={Contact} alt='' />
+              <img src={Contact} alt='' width='52' />
               <h3>Preencha o formulário</h3>
               <p>Nosso time irá entrar em contato com voce para confirmar o seu pedido.</p>
             </div>
 
             <div className='plan-container__boxes__box'>
-              <img src={Drive} alt='' />
+              <img src={Drive} alt='' width='44' />
               <h3>Saia dirigindo!</h3>
               <p>
                 Agora você pode partir e aproveitar o conforto da sua viagem. Nós temos o que você

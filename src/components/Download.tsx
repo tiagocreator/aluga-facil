@@ -13,8 +13,8 @@ const Download: React.FC = () => {
             aluguel em poucos cliques.
           </p>
           <div className='download-text__btns'>
-            <img alt='' src={AppStore} />
-            <img alt='' src={PlayStore} />
+            <img alt='Baixar o aplicativo na AppStore' src={AppStore} />
+            <img alt='Baixar o aplicativo no PlayStore' src={PlayStore} />
           </div>
         </div>
       </div>

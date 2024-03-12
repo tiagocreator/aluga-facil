@@ -54,12 +54,9 @@
     }
 
     img {
-      width: 40%;
+      width: 22rem;
+      height: 6.6rem;
       cursor: pointer;
-
-      @media (max-width: 550px) {
-        width: 22rem;
-      }
     }
   }
 }

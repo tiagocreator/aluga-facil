@@ -15,6 +15,12 @@
 
   &__img {
     width: 90%;
+    height: 100%;
+    object-fit: cover;
+    max-width: 1152px;
+    min-width: 310px;
+    max-height: 351px;
+    min-height: 94px;
     height: auto;
     margin: 0 auto;
 
@@ -112,6 +118,7 @@
 
         img {
           width: 5rem;
+          height: 5rem;
         }
       }
 
