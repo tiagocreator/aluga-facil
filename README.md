@@ -1,6 +1,6 @@
 ## Aluga Fácil
 
-### :computer: [Link do Projeto](https://aluga-facil-ten.netlify.app/)
+### :computer: [Link do Projeto](https://aluga-facil.vercel.app/)
 
 ---
 
@@ -55,4 +55,4 @@ Página Home Mobile:
 
 ---
 
-### :computer: [Link do Projeto](https://aluga-facil-ten.netlify.app/)
+### :computer: [Link do Projeto](https://aluga-facil.vercel.app/)
