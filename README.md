@@ -8,6 +8,15 @@
 
 ---
 
+### :green_circle: Google Lighthouse
+
+![lighthouse_performance](https://github.com/tiagocreator/aluga-facil/assets/82607849/418109b0-5e1a-4b7d-8d7b-c22d5fef5f3d)
+![lighthouse_accessibility](https://github.com/tiagocreator/aluga-facil/assets/82607849/aa072d78-b9e4-40bc-8739-2f2f61357c5a)
+![lighthouse_seo](https://github.com/tiagocreator/aluga-facil/assets/82607849/14a3cefc-ccf0-4f53-ab40-a52ed2302cd9)
+![lighthouse_best-practices](https://github.com/tiagocreator/aluga-facil/assets/82607849/d6013317-da3c-4b86-9a25-f674d5f2fcd7)
+
+---
+
 ### :sparkles: Tecnologias
 
 Nome | Descrição
