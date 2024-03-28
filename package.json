@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fontsource/poppins": "^5.0.12",
+    "@fontsource/rubik": "^5.0.19",
     "@tabler/icons-react": "^2.33.0",
     "picomatch": "^2.3.1",
     "react": "^18.2.0",
