@@ -8,7 +8,7 @@
 
 ---
 
-### :green_circle: Google Lighthouse
+### :green_circle: Google Lighthouse - Mobile
 
 ![lighthouse_performance](https://github.com/tiagocreator/aluga-facil/assets/82607849/418109b0-5e1a-4b7d-8d7b-c22d5fef5f3d)
 ![lighthouse_accessibility](https://github.com/tiagocreator/aluga-facil/assets/82607849/aa072d78-b9e4-40bc-8739-2f2f61357c5a)
